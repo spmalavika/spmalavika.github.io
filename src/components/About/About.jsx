@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import { truncate } from '../../utils/truncate';
 import { useGetDoctorsQuery } from '../../redux/api/doctorApi';
 import doctorimage from '../../images/doc/doc1.jpg'
+import amalimage from '../../images/doc/tooth.jpg'
 
 const About = () => {
     
@@ -25,7 +26,7 @@ const About = () => {
         <>
             <div className="col-lg-3 col-md-6 col-sm-6" key={1}>
             <div className="card shadow border-0 mb-5 mb-lg-0">
-                <img src={doctorimage} class="img-fluid w-100" alt="" />
+                <img src={amalimage} class="img-fluid w-100" alt="" />
                 <div className="p-2">
                 <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}><a>{'Amal Hari'}</a></h4>
                 <p>{'Designation'}</p>
