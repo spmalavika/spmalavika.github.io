@@ -3,39 +3,47 @@ import './index.css';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
 import ImageHeading from '../../images/doc/doctor 5.jpg'
-import img from '../../images/logo.png'
+import img from '../../images/logo1.png'
 import SubHeader from '../Shared/SubHeader';
 import { useGetAllBlogsQuery } from '../../redux/api/blogApi';
 import { Empty, message } from 'antd';
 import { Link } from 'react-router-dom';
 import { truncate } from '../../utils/truncate';
 import { useGetDoctorsQuery } from '../../redux/api/doctorApi';
+import doctorimage from '../../images/doc/doc1.jpg'
 
 const About = () => {
+    
     const { data, isError, isLoading } = useGetAllBlogsQuery({ limit: 4 });
     const { data: doctorData, isLoading: DoctorIsLoading, isError: doctorIsError } = useGetDoctorsQuery({ limit: 4 });
 
     const blogData = data?.blogs;
     const doctors = doctorData?.doctors;
 
-    let doctorContent = null;
-    if (!DoctorIsLoading && doctorIsError) doctorContent = <div>Something Went Wrong !</div>
-    if (!DoctorIsLoading && !doctorIsError && doctors?.length === 0) doctorContent = <div><Empty /></div>
-    if (!DoctorIsLoading && !doctorIsError && doctors?.length > 0) doctorContent =
+    let doctorContent = (
+        <div className="doctor-container d-flex justify-content-center">
         <>
-            {doctors && doctors.map((item, id) => (
-                <div className="col-lg-3 col-md-6 col-sm-6" key={id + item.id}>
-                    <div className="card shadow border-0 mb-5 mb-lg-0">
-                        {item.img && <img src={item.img} class="img-fluid w-100" alt="" />}
-                        <div className="p-2">
-                            <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}><a>{item?.firstName + ' ' + item?.lastName}</a></h4>
-                            <p>{item?.designation}</p>
-                        </div>
-                    </div>
+            <div className="col-lg-3 col-md-6 col-sm-6" key={1}>
+            <div className="card shadow border-0 mb-5 mb-lg-0">
+                <img src={doctorimage} class="img-fluid w-100" alt="" />
+                <div className="p-2">
+                <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}><a>{'Amal Hari'}</a></h4>
+                <p>{'Designation'}</p>
                 </div>
-            ))}
+            </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6" key={2}>
+            <div className="card shadow border-0 mb-5 mb-lg-0">
+                <img src={doctorimage} class="img-fluid w-100" alt="" />
+                <div className="p-2">
+                <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}><a>{'Amal Hari'}</a></h4>
+                <p>{'Designation'}</p>
+                </div>
+            </div>
+            </div>
         </>
-
+        </div>
+      );
     let content = null;
 
     if (!isLoading && !isError && blogData?.length === 0) content = <Empty />
@@ -80,37 +88,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
-                <div className="row">
-                    {content}
-                </div>
-            </div>
-
-            <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
-                <div className="row align-items-center">
-                    <div className="col-lg-4">
-                        <div className='section-title text-center'>
-                            <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-8">
-                        <div className="row">
-                            {
-                                Array(6).fill(null).map((_, id) => (
-                                    <div className="col-lg-4 col-md-6 col-sm-6" key={id + 3}>
-                                        <div className="award-img">
-                                            <img src={img} alt="" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
@@ -123,7 +100,6 @@ const About = () => {
 
                 <div className="row">
                     {doctorContent}
-
                 </div>
             </div>
 

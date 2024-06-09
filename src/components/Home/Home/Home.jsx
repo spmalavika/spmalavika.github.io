@@ -20,7 +20,6 @@ const Home = () => {
             <InfoPage />
             <Service />
             <ClinicAndSpecialities />
-            <Testimonial />
             <Gallery/>
             <Footer />
         </>

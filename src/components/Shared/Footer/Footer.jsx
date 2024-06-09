@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/logo1.png';
 import { Link } from 'react-router-dom';
 import { FaAngleDoubleRight } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const Footer = () => {
 									</Link>
 								</div>
 								<div className="footer-about-content">
-									<p className="form-text" style={{ maxWidth: 200 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p className="form-text" style={{ maxWidth: 200 }}>Refine dental clinics offer all services, from check-ups to cosmetic work, for a complete smile solution.</p>
 								</div>
 							</div>
 						</div>
@@ -28,15 +28,15 @@ const Footer = () => {
 								<div className="footer-contact-info">
 									<div className="footer-address">
 										<span><i className="fas fa-map-marker-alt"></i></span>
-										<p>121, Mirzapure Union office,<br /> Sylhet, Bangladesh 03214</p>
+										<p>Sy No 25/2, Saud Complex<br /> 1st Floor <br />  Sambharam College Road,  <br /> Best county 3, <br /> Vidyaranyapura,Bengaluru, Karnataka </p>
 									</div>
 									<p>
 										<i className="fas fa-phone-alt"></i>
-										+88 017 51 040425
+										+91 9916315836
 									</p>
 									<p className="mb-0">
 										<i className="fas fa-envelope"></i>
-										ujjalzaman@gmail.com
+										refine-dental@gmail.com
 									</p>
 								</div>
 							</div>

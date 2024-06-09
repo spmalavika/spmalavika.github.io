@@ -7,9 +7,9 @@ const HeroSection = () => {
         <section id="hero" className="d-flex align-items-center">
             <div className="container">
                 <div>
-                    <small>TOTAL HEALTH CARE SOLUTION</small>
-                    <h1>Your Most Trusted <br />Health Partner</h1>
-                    <small>A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</small>
+                    <small>TOTAL DENTAL CARE SOLUTION</small>
+                    <h1>Your Most Trusted <br />Dental Partner</h1>
+                    <small>Refine dental clinics offer all services, from check-ups to cosmetic work, for a complete smile solution.</small>
                 </div>
 
             </div>

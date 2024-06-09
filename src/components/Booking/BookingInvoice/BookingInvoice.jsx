@@ -1,5 +1,5 @@
 import Footer from '../../Shared/Footer/Footer';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/logo1.png';
 import './BookingInvoice.css';
 import { useParams } from 'react-router-dom';
 import { useGetAppointmentedPaymentInfoQuery } from '../../../redux/api/appointmentApi';

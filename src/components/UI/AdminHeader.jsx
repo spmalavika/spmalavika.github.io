@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../images/logo.png';
+import logo from '../../images/logo1.png';
 import userImg from '../../images/avatar.jpg';
 import './AdminHeader.css';
 

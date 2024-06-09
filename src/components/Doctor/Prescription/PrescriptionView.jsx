@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import logo from '../../../images/logo.png';
+import logo from '../../../images/logo1.png';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import { useGetPrescriptionQuery } from "../../../redux/api/prescriptionApi";
