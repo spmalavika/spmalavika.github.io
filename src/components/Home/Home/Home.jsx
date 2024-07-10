@@ -11,14 +11,17 @@ import Header from '../../Shared/Header/Header';
 import Service from '../Services/Service';
 import Gallery from '../Gallery/Gallery';
 import OurDoctors from '../OurDoctor/OurDoctors';
+import Icons from '../../Shared/Icons';
+
 
 const Home = () => {
     return (
         <>
+            {/* <Icons /> */}
             <Header />
             <HeroSection />
             <InfoPage />
-            <Service />
+            {/* <Service /> */}
             <ClinicAndSpecialities />
             <Gallery/>
             <Footer />

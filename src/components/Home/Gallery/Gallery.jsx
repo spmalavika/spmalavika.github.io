@@ -1,17 +1,21 @@
 import React from 'react';
-import img2 from '../../../images/features/baby.png';
-import img3 from '../../../images/doc/doc4.jpg';
-import img4 from '../../../images/doc/doctor 5.jpg';
-import img5 from '../../../images/doc/doc1.jpg';
-import img6 from '../../../images/doc/doctor chair 2.jpg';
-import img7 from '../../../images/features/feature-03.jpg';
-import img8 from '../../../images/doc/doctor 5.jpg';
-import img9 from '../../../images/doc/doctor chair 2.jpg';
+import img2 from '../../../images/doc/IMG_0784 (1).png';
+import img3 from '../../../images/doc/DSC_0093.png';
+import img4 from '../../../images/doc/DSC_0117.png';
+import img5 from '../../../images/doc/DSC_0115.png';
+import img6 from '../../../images/doc/IMG_0778 (1).png';
+import img7 from '../../../images/doc/DSC_0121.png';
+import img8 from '../../../images/doc/DSC_0109.png';
+import img9 from '../../../images/doc/IMG_0775 (1).png';
+import img10 from '../../../images/doc/Watermark (1).png';
+import img11 from '../../../images/doc/Watermark (2).png';
+import img12 from '../../../images/doc/teet.png';
+import img13 from '../../../images/doc/Laser crown exposure.png';
 import './index.css';
 import { Image } from 'antd';
 
 const Gallery = () => {
-    const imageArray = [img2,img3,img4,img5,img6,img7, img8, img9]
+    const imageArray = [img10,img11,img12,img13,img2,img3,img4,img5,img6,img7, img8, img9]
     return (
         <section className="gallery container">
             <div className="text-center mb-5">

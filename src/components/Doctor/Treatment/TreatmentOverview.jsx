@@ -19,7 +19,7 @@ const TreatmentOverview = ({ data, isAppointment = false }) => {
                                 <p><FaClock className='icon' /> {moment(data?.createdAt).format('LL')} </p>
                                 <p><FaLocationArrow className='icon' /> {data?.address + data?.city}</p>
                                 <p><FaEnvelope className='icon' /> {data?.patient?.email}</p>
-                                <p><FaPhoneAlt className='icon' /> {data?.patient?.contact ? data?.patient?.contact : '+91 9916315836'}</p>
+                                <p><FaPhoneAlt className='icon' /> {data?.patient?.contact ? data?.patient?.contact : '+91 9113206109'}</p>
                             </div>
                         </div>
                     </div>

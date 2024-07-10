@@ -41,11 +41,13 @@ import ViewAppointment from './components/Doctor/Appointments/ViewAppointment';
 import ForgotPassword from './components/Login/ForgotPassword';
 import Dashboard from './components/Doctor/Dashboard/Dashboard';
 import PrivateOutlet from './components/Shared/PrivateOutlet';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import NotFound from './components/UI/NotFound';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route element={<PrivateOutlet />}>
           <Route path='/dashboard/blogs' element={<Blogs />} />

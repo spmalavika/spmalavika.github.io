@@ -3,11 +3,12 @@ import './index.css';
 import useAuthCheck from '../../../redux/hooks/useAuthCheck';
 import TopHeader from '../TopHeader/TopHeader';
 import { Link, useNavigate } from 'react-router-dom';
-import img from '../../../images/logo1.png';
+import img from '../../../images/logo2.png';
 import avatar from '../../../images/avatar.jpg';
 import { Button, message } from 'antd';
 import { loggedOut } from '../../../service/auth.service';
 import HeaderNav from './HeaderNav';
+import Icons from '../../Shared/Icons';
 
 const Header = () => {
     const navigate = useNavigate();
@@ -69,6 +70,7 @@ const Header = () => {
                         avatar={avatar} content={content} open={open} setOpen={setOpen} />
                 </div>
             </header>
+            <Icons />
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/logo1.png';
+import logo from '../../../images/logo3.jpeg';
 import { Link } from 'react-router-dom';
 import { FaAngleDoubleRight } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const Footer = () => {
 									</Link>
 								</div>
 								<div className="footer-about-content">
-									<p className="form-text" style={{ maxWidth: 200 }}>Refine dental clinics offer all services, from check-ups to cosmetic work, for a complete smile solution.</p>
+									<p className="form-text" style={{ maxWidth:180 }}>From fear to cheer:Enjoy pain-free excellence with our quality-focused dental care.</p>
 								</div>
 							</div>
 						</div>
@@ -32,7 +32,7 @@ const Footer = () => {
 									</div>
 									<p>
 										<i className="fas fa-phone-alt"></i>
-										+91 9916315836
+										+91 9113206109
 									</p>
 									<p className="mb-0">
 										<i className="fas fa-envelope"></i>

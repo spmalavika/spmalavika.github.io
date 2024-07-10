@@ -28,7 +28,7 @@ const Service = () => {
                     <div className="col-lg-4">
                         <div className="service-content ps-4 mt-4 mt-lg-0">
                             <h2>Personal care <br />healthy living</h2>
-                            <p className="mt-4 mb-5 text-secondary form-text">We provide best leading dental services.</p>
+                            <p className="mt-4 mb-5 text-secondary form-text">We providedental services.</p>
                             <Link to={'/service'} className="btn-get-started scrollto">Services</Link>
                         </div>
                     </div>

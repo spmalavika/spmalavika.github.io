@@ -31,6 +31,7 @@ const Contact = () => {
             <section id="contact" className="contact mt-5 mb-5">
                 <div className="container" style={{ marginTop: 80, marginBottom: 120 }}>
                     <div className="row">
+                        
 
                         <div className="col-lg-4">
                             <div className="info rounded p-3" style={{ background: '#f8f9fa' }}>
@@ -63,7 +64,13 @@ const Contact = () => {
 
                         <div className="col-lg-8">
                             <div className="mb-5 p-2 rounded" style={{ background: '#f8f9fa' }}>
-                                <form className="row form-row" onSubmit={handleSubmit(onSubmit)}>
+                            <div>
+                    <div className="container">
+                        <iframe style={{ border: 0, width: "100%", height: "350px" }} src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=ReFine Dental & Facial Aesthetic Centre&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                                
+                                {/* <form className="row form-row" onSubmit={handleSubmit(onSubmit)}>
                                     <div className="col-md-6">
                                         <div className="form-group mb-2 card-label">
                                             <label>First Name</label>
@@ -102,17 +109,16 @@ const Contact = () => {
                                     <div className="text-center mt-3 mb-5">
                                         <button disabled={isLoading} type='submit' className="appointment-btn">Send Message</button>
                                     </div>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <div className="container">
-                        {/* eslint-disable-next-line */}
                         <iframe style={{ border: 0, width: "100%", height: "350px" }} src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=ReFine Dental & Facial Aesthetic Centre&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
                     </div>
-                </div>
+                </div> */}
             </section>
             <Footer />
         </>
