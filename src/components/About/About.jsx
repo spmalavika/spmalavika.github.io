@@ -53,8 +53,11 @@ const About = () => {
           <div className="card shadow border-0 mb-5 mb-lg-0">
             <img src={amalimage2} className="img-fluid w-100" alt="Dr. Amal Hari" />
             <div className="p-2">
-              <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>Dr. Amal Hari</h4>
-              <p>MDS-Periodontist & Implantologist</p>
+              <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>
+                Dr. Amal Hari&nbsp;
+                <span className="mds-text"> MDS</span>
+                </h4>
+              <p>Periodontist & Implantologist</p>
             </div>
           </div>
       </div>
@@ -62,8 +65,11 @@ const About = () => {
           <div className="card shadow border-0 mb-5 mb-lg-0">
             <img src={nikhilimage2} className="img-fluid w-100" alt="Dr. Amal Hari" />
             <div className="p-2">
-              <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>Dr. Nikhil Johnson</h4>
-              <p>MDS-Orthodontist</p>
+              <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>
+                Dr. Nikhil Johnson&nbsp;
+                <span className="mds-text"> MDS</span>
+                </h4>
+              <p>Orthodontist</p>
             </div>
           </div>
         
