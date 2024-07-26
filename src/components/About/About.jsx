@@ -48,24 +48,8 @@ const About = () => {
 
     let doctorContent = (
     <div className={sectionStyle1}>
-        {/* <div style={overlayStyle1} className="overlay"></div> */}
     <div className="doctor-container d-flex justify-content-center">
       <div className="col-lg-3 col-md-6 col-sm-6">
-        {/* <Carousel
-          showThumbs={false}
-          showStatus={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          interval={5000}
-          useKeyboardArrows={true} // Enable keyboard navigation
-        > */}
-          {/* <div className="card shadow border-0 mb-5 mb-lg-0" key={1}>
-            <img src={amalimage} className="img-fluid w-100" alt="Dr. Amal Hari" />
-            <div className="p-2">
-              <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>Dr. Amal Hari</h4>
-              <p>Periodontist & Implantologist</p>
-            </div>
-          </div> */}
           <div className="card shadow border-0 mb-5 mb-lg-0">
             <img src={amalimage2} className="img-fluid w-100" alt="Dr. Amal Hari" />
             <div className="p-2">
@@ -73,24 +57,8 @@ const About = () => {
               <p>MDS-Periodontist & Implantologist</p>
             </div>
           </div>
-        {/* </Carousel> */}
       </div>
       <div className="col-lg-3 col-md-6 col-sm-6">
-        {/* <Carousel
-          showThumbs={false}
-          showStatus={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          interval={5000}
-          useKeyboardArrows={true} // Enable keyboard navigation
-        > */}
-          {/* <div className="card shadow border-0 mb-5 mb-lg-0" key={2}>
-            <img src={doctorimage} className="img-fluid w-100" alt="Dr. Amal Hari" />
-            <div className="p-2">
-              <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>Dr. Nikhil Johnson </h4>
-              <p>Orthodontist</p>
-            </div>
-          </div> */}
           <div className="card shadow border-0 mb-5 mb-lg-0">
             <img src={nikhilimage2} className="img-fluid w-100" alt="Dr. Amal Hari" />
             <div className="p-2">
@@ -98,7 +66,7 @@ const About = () => {
               <p>MDS-Orthodontist</p>
             </div>
           </div>
-        {/* </Carousel> */}
+        
       </div>
     </div>
     </div>
@@ -132,37 +100,6 @@ const About = () => {
         <>
             <Header />
             <SubHeader title="about us"  />
-            {/* <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
-                <div className="row p-5">
-                    <div className="col-lg-4">
-                        <div className='section-title text-center'>
-                            <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <p className='mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
-                    </div>
-
-                    <div className="col-lg-8">
-
-                        <img src={ImageHeading} alt="" className="img-fluid rounded shadow" />
-                    </div>
-                </div>
-            </div> */}
-
-            {/* <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
-                <div className="row justify-content-center">
-                    <div className="col-lg-6">
-                        <div className='mb-4 section-title text-center'>
-                            <h2 className='text-uppercase'>Meet Our Team</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="row">
-                    {doctorContent}
-                </div>
-            </div> */}
-
 <div className="container" style={{
       backgroundImage: `url(${backgroundImage})`, // Set background image
       backgroundSize: 'cover', // Adjust as needed
@@ -182,13 +119,11 @@ const About = () => {
                     {doctorContent}
                 </div>
             </div>
-
             <div className="container say-about" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row">
                     <div className="col-lg-6 offset-lg-6">
                         <div className='mb-4 section-title text-center'>
                             <h2 className='text-uppercase'>TestimoNials</h2>
-                            {/* <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p> */}
                         </div>
                     </div>
                 </div>

@@ -20,5 +20,28 @@
     position: absolute;
     content: "";
     background: url("../../images/doc/doc4.jpg") no-repeat 50% 50%;
-    /* background-size: cover;  */
+    background-size: cover; 
+}
+
+@media (max-width: 767px) {
+    .say-about:before {
+        width: 100%; /* Full width on mobile */
+        height: 600px; /* Adjust height as needed */
+        background-position: center; /* Center the image on mobile */
+        background-size: cover; /* Ensure the image covers the entire area */
+    }
+    .say-about .col-lg-6.offset-lg-6 {
+        position: relative; /* Ensure the text content is correctly positioned */
+        z-index: 1; /* Make sure text is above the background image */
+    }
+    .say-about .row {
+        margin: 0; /* Adjust margins/padding if needed */
+        padding: 0;
+    }
+    .say-about .section-title {
+        margin-bottom: 20px; /* Adjust spacing as needed */
+    }
+    .say-about .form-text {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
 }
