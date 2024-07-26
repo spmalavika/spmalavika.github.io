@@ -47,29 +47,6 @@ const About = () => {
     const doctors = doctorData?.doctors;
 
     let doctorContent = (
-    //     <div className="doctor-container d-flex justify-content-center">
-    //     <>
-    //         <div className="col-lg-3 col-md-6 col-sm-6" key={1}>
-    //         <div className="card shadow border-0 mb-5 mb-lg-0">
-    //             <img src={amalimage} class="img-fluid w-100" alt="" />
-    //             <div className="p-2">
-    //             <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}><a>{'Dr. Amal Hari'}</a></h4>
-    //             <p>{'Periodotist & Implantologist'}</p>
-    //             </div>
-    //         </div>
-    //         </div>
-    //         <div className="col-lg-3 col-md-6 col-sm-6" key={2}>
-    //         <div className="card shadow border-0 mb-5 mb-lg-0">
-    //             <img src={doctorimage} class="img-fluid w-100" alt="" />
-    //             <div className="p-2">
-    //             <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}><a>{'Dr. Nikhil Johnson'}</a></h4>
-    //             <p>{'Orthodontist'}</p>
-    //             </div>
-    //         </div>
-    //         </div>
-    //     </>
-    //     </div>
-    //   );
     <div className={sectionStyle1}>
         {/* <div style={overlayStyle1} className="overlay"></div> */}
     <div className="doctor-container d-flex justify-content-center">
@@ -93,7 +70,7 @@ const About = () => {
             <img src={amalimage2} className="img-fluid w-100" alt="Dr. Amal Hari" />
             <div className="p-2">
               <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>Dr. Amal Hari</h4>
-              <p>Periodontist & Implantologist</p>
+              <p>MDS-Periodontist & Implantologist</p>
             </div>
           </div>
         {/* </Carousel> */}
@@ -118,7 +95,7 @@ const About = () => {
             <img src={nikhilimage2} className="img-fluid w-100" alt="Dr. Amal Hari" />
             <div className="p-2">
               <h4 className="mt-4 mb-0" style={{ color: '#223a66' }}>Dr. Nikhil Johnson</h4>
-              <p>Orthodontist</p>
+              <p>MDS-Orthodontist</p>
             </div>
           </div>
         {/* </Carousel> */}
