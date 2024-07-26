@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../images/logo3.png';
+import logo3 from '../../../images/logo3.png';
 import { Link } from 'react-router-dom';
 import { FaAngleDoubleRight } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ const Footer = () => {
 							<div className="footer-widget footer-about">
 								<div className="footer-logo">
 									<Link to={'/'}>
-										<img src={logo} alt="logo" style={{ maxWidth: '100px' }} />
+										<img src={logo3} alt="logo3" style={{ maxWidth: '100px' }} />
 									</Link>
 								</div>
 								<div className="footer-about-content">
