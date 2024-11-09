@@ -43,6 +43,7 @@ import Dashboard from './components/Doctor/Dashboard/Dashboard';
 import PrivateOutlet from './components/Shared/PrivateOutlet';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import NotFound from './components/UI/NotFound';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
+        <Route path='/gallery' element={<Gallery />} />
         <Route path='/reset-password/:userId/:uniqueString' element={<ForgotPassword />} />
         <Route path='/appointment' element={<AppointmentPage />} />
         <Route path='/track-appointment' element={<TrackAppointment />} />

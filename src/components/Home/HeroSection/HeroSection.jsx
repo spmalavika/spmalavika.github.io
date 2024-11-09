@@ -8,8 +8,8 @@ const HeroSection = () => {
             <div className="container">
                 <div>
                     <small></small>
-                    <h1>Redefining Dental Experience <br />Reshaping smiles</h1>
-                    <small>From fear to cheer: Enjoy pain-free excellence with our quality-focused dental care.</small>
+                    <h1>Best Dental Clinic in <br />Vidyaranyapura,Bangalore</h1>
+                    <p>REDEFINING DENTAL EXPERIENCE <br />RESHAPING SMILES</p>
                 </div>
 
             </div>

@@ -19,6 +19,7 @@ const HeaderNav = ({ open, setOpen, isLoggedIn, data, avatar, content }) => {
                     <li><NavLink to={'/'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}>Home</NavLink></li>
                     <li><NavLink to={'/about'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}>About</NavLink></li>
                     <li><NavLink to={'/service'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}>Service</NavLink></li>
+                    <li><NavLink to={'/gallery'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}>Gallery</NavLink></li>
                     <li><NavLink to={'/contact'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}>Contact</NavLink></li>
                    </ul>
                 {isLoggedIn &&
@@ -44,6 +45,7 @@ const HeaderNav = ({ open, setOpen, isLoggedIn, data, avatar, content }) => {
                     <li><NavLink to={'/'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}><FaHome className="icon" />Home</NavLink></li>
                     <li><NavLink to={'/about'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}><FaAddressBook className="icon" />About</NavLink></li>
                     <li><NavLink to={'/service'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}><FaWrench className="icon" />Service</NavLink></li>
+                    <li><NavLink to={'/gallery'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}><FaWrench className="icon" />Gallery</NavLink></li>
                     <li><NavLink to={'/contact'} className={({ isActive }) => isActive ? "nav-link scrollto active" : ""}><FaPhoneAlt className="icon" />Contact</NavLink></li>
                 </ul>
             </Drawer>

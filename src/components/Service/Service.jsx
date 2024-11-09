@@ -16,20 +16,6 @@ import cosmetoImg from '../../images/features/cosmeto.jpg'
 import { Link } from 'react-router-dom'
 import doctorBg from '../../images/img/doctors-bg.jpg';
 
-// const headings = [
-//   "Endodontics",
-//   "Orthodontics",
-//   "Periodontics",
-//   "Prosthodontics",
-//   "Oral Surgery",
-//   "Pedodontics",
-//   "Laser Dentistry",
-//   "Dental Implants",
-//   "Conservative Dentistry",
-//   "Aligners",
-//   "Full Mouth Rehabilitation",
-//   "Cosmetology",
-// ];
 const sections = [
   {
     heading: "Conservative & Endodontics",
